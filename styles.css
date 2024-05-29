@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+.welcome {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.welcome h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.welcome h3 {
+    font-size: 20px;
+    color: #666;
+    margin-top: 20px;
+}
+
+.featured-products {
+    background-color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.featured-products h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.products-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    max-width: 300px;
+    flex: 1 1 250px;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.product p {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #666;
+}
+
+.product button {
+    margin-top: 10px;
+    background-color: #f9d42e;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product button:hover {
+    background-color: #b4cde7;
+}
+
+.about-us {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-us p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-links li a:hover {
+    color: #ffd700;
+}
